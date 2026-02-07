@@ -1,0 +1,3 @@
+[bandit]
+exclude: .venv,outputs,tests,__pycache__,.git
+skips: B101

@@ -1,0 +1,23 @@
+# Ambientes e caches
+.venv/
+__pycache__/
+*.pyc
+
+# Saídas do MVP
+outputs/
+
+# Configurações locais
+config.yaml
+.env
+exceptions.yaml
+
+# Chaves e certificados
+*.pem
+*.key
+
+# Credenciais AWS locais
+.aws/
+
+# SO/Editor
+.DS_Store
+.vscode/

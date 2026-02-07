@@ -1,0 +1,22 @@
+# Configuração do AWS Audit MVP
+mode: profile  # profile | assume_role
+profile: teste-audit
+regions:
+  - us-east-1
+  - us-west-2
+  - sa-east-1
+
+assume_role:
+  role_arns:
+    - arn:aws:iam::831941427585:role/teste
+  external_id: ""
+
+tag_policy:
+  required_tags:
+    - Owner
+    - Environment
+    - CostCenter
+  stopped_instance_days: 7
+
+# IP do auditor para recomendações (opcional)
+my_ip_cidr: "200.10.10.10/32"

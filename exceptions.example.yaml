@@ -1,0 +1,4 @@
+# Exceções de auditoria
+allowed_public_s3_buckets:
+  - meu-site-estatico
+  - bucket-publico-de-exemplo
